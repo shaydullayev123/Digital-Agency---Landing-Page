@@ -1,0 +1,250 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+  /* background: rgb(2, 0, 36); */
+  background: linear-gradient(
+    124deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(125, 150, 182, 1) 0%,
+    rgba(255, 255, 255, 1) 37%
+  );
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 47px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 44px;
+}
+
+.nav-list-item {
+  text-decoration: none;
+  color: #272d38;
+  transition: 0.5s;
+}
+
+.nav-list-item:hover {
+  color: #335ab6;
+  box-shadow: #2e5ac0;
+}
+
+#home {
+  margin-top: 54px;
+  padding-top: 70px;
+  background-image: url(../images/business-people-discussing-business-idea.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 30px center;
+  padding-bottom: 50px;
+}
+
+.home-h1 {
+  color: #272d38;
+  font-weight: 900;
+  font-size: 50px;
+  padding-right: 647px;
+}
+
+.home-h3 {
+  color: #272d38;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 580px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.btn-primary {
+  background: #8eadd5;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background: #7c98bc;
+}
+
+.supporters {
+  max-width: 915px;
+  margin: 0 auto;
+  background: #f6f6f6;
+  border-radius: 15px;
+  margin-bottom: 200px;
+}
+
+.supporters-text {
+  text-align: center;
+  margin: 20px 0;
+  margin-top: 200px;
+
+  color: #667085;
+}
+
+.support-img {
+  display: flex;
+  padding: 10px 0;
+  /* gap: 50px; */
+  justify-content: space-around;
+}
+
+.branding-system {
+  background-image: url(../images/designer2.png);
+  height: 450px;
+  background-repeat: no-repeat;
+  padding-left: 620px;
+  padding-top: 100px;
+  margin-bottom: 200px;
+}
+
+.system-text,
+.system-text2 {
+  color: #272d38;
+  max-width: 440px;
+  margin: 20px 0;
+  font-size: 45px;
+}
+
+.system-text2 {
+  font-size: 20px;
+}
+
+.development {
+  background-image: url(../images/businessman3.png);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: right center;
+  height: 450px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+#testimonials {
+  padding-top: 100px;
+}
+
+.tes-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.testimonials h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 350px;
+  font-size: 45px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.cards {
+  width: 345px;
+  height: 335px;
+  background: #f6f6f6;
+  border-radius: 15px;
+}
+
+.cards img {
+  padding-left: 110px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.cards h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards p {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.contact {
+  height: 450px;
+  padding-left: 670px;
+  padding-top: 100px;
+  margin-bottom: 200px;
+  background: #f6f6f6;
+  background-image: url(../images/customer-support.png);
+  background-repeat: no-repeat;
+  background-position: left 100px center;
+  border-radius: 15px;
+  margin-top: 200px;
+}
+
+.customer-text {
+  color: #272d38;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.footerr {
+  background: #f6f6f6;
+}
+
+.footer {
+  display: flex;
+  /* height: 200px; */
+  justify-content: space-around;
+}
+
+.sections {
+  width: 85px;
+  padding: 50px 0;
+}
+
+.digitals {
+  width: 185px;
+  padding: 50px 0;
+}
+
+.sections h4 {
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.digitals h4 {
+  margin-bottom: 30px;
+}
+
+/* .sections a {
+} */
+
+.footer-links {
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: #272d38;
+}
+
+.auth {
+  text-align: center;
+  padding-bottom: 50px;
+}
